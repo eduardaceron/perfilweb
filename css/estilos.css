@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Eduarda;
+    src: url(Outlander.otf);
+}
+
+:root {
+    --font1: Eduarda;
+}
+
+
+body {
+    background-color: #7470F9;
+    font-family: monospace, 'Courier New', Courier;
+    width: 500px;
+    max-width: width 100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color: #62167F;
+    font-family: var(--font1);
+}
+
+p{
+    color:#000000;
+}
+
+ul li a {
+    color:#7427F9 ;
+}
+
+img{
+    width:150px ;
+    border-radius: 50%;
+    border-width:8px;
+    border-color: #744EF9;
+    border-style: solid;
+
+}
